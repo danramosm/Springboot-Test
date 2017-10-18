@@ -3,6 +3,8 @@ package cl.dramos.pruebas.springboot.album;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
+//documento MONGODB album
+
 @Document(collection = "album")
 public class Album {
 	
